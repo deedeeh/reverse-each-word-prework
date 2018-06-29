@@ -26,7 +26,5 @@
 # end
 
 def reverse_each_word(sentence)
-  reversed = []
-  sentence.split.collect {|word| reversed << word.reverse}
-  reversed.join(" ")
+  sentence.split.collect {|word| word.reverse}.join(" ")
 end
